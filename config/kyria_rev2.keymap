@@ -100,7 +100,7 @@
 	       &kp LALT &kp LGUI &lt LOWER RET &kp LSHIFT &kp LCTRL           &kp RCTRL &kp RSHIFT &lt RAISE SPACE &kp BSPC &kp C_PLAY_PAUSE
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp N0 N0 &inc_dec_kp C_PREV C_NEXT>;
 		};
 
 		lower_layer {
@@ -110,6 +110,7 @@
 	&sys_reset &out OUT_BLE    &rgb_ug RGB_HUD &rgb_ug RGB_SAD &rgb_ug RGB_BRD &rgb_ug RGB_EFR &trans &trans &trans &trans &kp END &trans  &trans    &trans    &trans    &bt BT_CLR
 	                                                                  &trans &trans &trans &trans &trans &trans &trans &trans  &kp DEL &trans
 			>;
+			sensor-bindings = <&inc_dec_kp N0 N0 &inc_dec_kp C_BRI_DN C_BRI_UP>;
 		};
 
 		raise_layer {
@@ -129,7 +130,7 @@
 	       &kp KP_N1   &kp KP_N2   &lt LOWER RET &kp LSHIFT &kp KP_N3              &kp KP_N8    &kp RSHIFT &lt RAISE SPACE &kp BSPC &kp C_PLAY_PAUSE
 			>;
 
-			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp C_VOL_UP C_VOL_DN>;
+			sensor-bindings = <&inc_dec_kp N0 N0 &inc_dec_kp C_PREV C_NEXT>;
 		};
 	};
 };
